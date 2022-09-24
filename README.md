@@ -2,7 +2,7 @@
 Used variety of statistical tests and hypothesis testing (R) to analyze series of datasets from the automotive industry (AutosRUs)
 
 ## Overview of Project
-R is a programming language that has a variety of uses in data science. R has solified intself in academia and industry as one of the go-to programming languages for statistical modelling and hypothesis testing. Our analysis include visualizations, statistial tests, and interpretation of the results. All of our statistical analysis and visualizations will be written in the R programming language. We extracted, transformed, and loaded (ETL) data; visualized the data; and analyzed the data using R. For this project, our goal is to review the company AutosRUs' newest prototype, the MechaCar's, production data for ingights that may help the manufacturing team. 
+R is a programming language that has a variety of uses in data science. R has solidified intself in academia and industry as one of the go-to programming languages for statistical modelling and hypothesis testing. Our analysis include visualizations, statistial tests, and interpretation of the results. All of our statistical analysis and visualizations will be written in the R programming language. We extracted, transformed, and loaded (ETL) data; visualized the data; and analyzed the data using R. For this project, our goal is to review the company AutosRUs' newest prototype, the MechaCar's, production data for ingights that may help the manufacturing team. 
 
 ## Linear Regression to Predict MPG
 
