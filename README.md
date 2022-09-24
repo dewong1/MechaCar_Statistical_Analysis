@@ -6,7 +6,7 @@ R is a programming language that has a variety of uses in data science. R has so
 
 ## Linear Regression to Predict MPG
 
-<img width="800" alt="linear_regression_summary" src="https://user-images.githubusercontent.com/107021231/192070116-3c282d8b-1f34-49eb-add0-22c10da523bf.png">
+<img width="900" alt="linear_regression_summary" src="https://user-images.githubusercontent.com/107021231/192070116-3c282d8b-1f34-49eb-add0-22c10da523bf.png">
 
 * Variance of a non-random variable is usually 0. From the *Linear Regression Summary* data, the *intercept*, *vehicle_length*, and *ground_clearance* coefficients provide a non-random amount of variance to the mpg values.  
 
@@ -27,8 +27,32 @@ R is a programming language that has a variety of uses in data science. R has so
   
 
 ## T-Tests on Suspension Coils
+  
+### T-Test on Entire Lot
+  
+<img width="600" alt="t-test" src="https://user-images.githubusercontent.com/107021231/192072595-18c3d4f2-fd7c-4fde-9758-5f1e2066aec3.png">
+  
+* Assuming significance level at 0.05, with a greater *p-value* (~0.06), there is not enough evidence to reject the null hypothesis. As a result, we cannot reject the fact that the sample mean may be equivalent to the true population mean. In addition, the data reveals the narrow *confidence interval*. Although a narrower confidence interval suggests that there's a smaller chance of obtaining an observation within that interval, it presents greater accuracy than a wider interval. 
 
-* Which variables
+ 
+### T-Test on Three Smaller Lots
+  
+<img width="600" alt="lots_t-test" src="https://user-images.githubusercontent.com/107021231/192072609-4e28ca80-d9ff-418a-b49a-da2334b3b0c4.png">
+  
+ #### Lot 1
+
+* At a significance level of 0.05, with a greater *p-value* (1), there is not enough evidence to reject the null hypothesis.
+  
+#### Lot 2
+
+* At a significance level of 0.05, with a greater *p-value* (~0.6), there is not enough evidence to reject the null hypothesis.
+  
+#### Lot 3
+
+* At a significance level of 0.05, with a smaller *p-value* (~0.4), we are able to reject the null hypothesis. The mean of this sample is significantly smaller in comparison to the previous two lots. And unlike, the previous two lots, the confidence interval for the third lot does not include the predicted population mean. 
+ 
+
+
 
 
 ## Study Design: MechaCar vs Competition
