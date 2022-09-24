@@ -23,7 +23,7 @@ R is a programming language that has a variety of uses in data science. R has so
 <p align="center">
 <img width="400" alt="lot_summary_table" src="https://user-images.githubusercontent.com/107021231/192070164-505a1049-4c18-43bd-8e44-842eee490657.png">
 
-* Based on the *Total Summary Table* data, the overall variance (~62.29) for the entire dataset shows that the current manufacturing data meets the 100 pounds per square inch variance limitation. However, looking at the *Lot Summary Table* data, when the data is separated into three lots, it appears that Lot3 exceed the 100 pound per square inch variance limitation with a variance greater than a hundred (~170.29). Since the lots are chosen randomly, there is a possibility that a portion of the lot does not meet the necessary suspension coils requirement. 
+Based on the *Total Summary Table* data, the overall variance (~62.29) for the entire dataset shows that the current manufacturing data meets the 100 pounds per square inch variance limitation. However, looking at the *Lot Summary Table* data, when the data is separated into three lots, it appears that Lot3 exceed the 100 pound per square inch variance limitation with a variance greater than a hundred (~170.29). Since the lots are chosen randomly, there is a possibility that a portion of the lot does not meet the necessary suspension coils requirement. 
   
 
 ## T-Tests on Suspension Coils
@@ -32,12 +32,14 @@ R is a programming language that has a variety of uses in data science. R has so
   
 <img width="600" alt="t-test" src="https://user-images.githubusercontent.com/107021231/192072595-18c3d4f2-fd7c-4fde-9758-5f1e2066aec3.png">
   
-* Assuming significance level at 0.05, with a greater *p-value* (~0.06), there is not enough evidence to reject the null hypothesis. As a result, we cannot reject the fact that the sample mean may be equivalent to the true population mean. In addition, the data reveals the narrow *confidence interval*. Although a narrower confidence interval suggests that there's a smaller chance of obtaining an observation within that interval, it presents greater accuracy than a wider interval. 
+Assuming significance level at 0.05, with a greater *p-value* (~0.06), there is not enough evidence to reject the null hypothesis. As a result, we cannot reject the fact that the sample mean may be equivalent to the true population mean. In addition, the data reveals the narrow *confidence interval*. Although a narrower confidence interval suggests that there's a smaller chance of obtaining an observation within that interval, it presents greater accuracy than a wider interval. 
 
  
 ### T-Test on Three Smaller Lots
   
 <img width="600" alt="lots_t-test" src="https://user-images.githubusercontent.com/107021231/192072609-4e28ca80-d9ff-418a-b49a-da2334b3b0c4.png">
+  
+  
   
  #### Lot 1
 
@@ -50,13 +52,16 @@ R is a programming language that has a variety of uses in data science. R has so
 #### Lot 3
 
 * At a significance level of 0.05, with a smaller *p-value* (~0.4), we are able to reject the null hypothesis. The mean of this sample is significantly smaller in comparison to the previous two lots. And unlike, the previous two lots, the confidence interval for the third lot does not include the predicted population mean. 
- 
-
-
 
 
 ## Study Design: MechaCar vs Competition
 
-* Which variables
+Another statistical study that can quantify how the MechaCar performs agaisnt its competition is a linear regression on city and highway fuel efficiency. Gas prices are becoming increasingly expensive nowadays, and probably one of the high priority concens for consumers when purchasing a car. The metrics that may include: 
+
+* City and highway fuel efficiency (dependent variable)
+* Horse power (independent variable)
+* MPG (independent variable)
+* AWD capabilities (independent variable)
+* Vehicle weight (independent variable)
 
 
