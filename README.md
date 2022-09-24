@@ -56,7 +56,7 @@ Assuming significance level at 0.05, with a greater *p-value* (~0.06), there is 
 
 ## Study Design: MechaCar vs Competition
 
-Another statistical study that can quantify how the MechaCar performs agaisnt its competition is a linear regression on city and highway fuel efficiency. Gas prices are becoming increasingly expensive nowadays, and probably one of the high priority concens for consumers when purchasing a car. The metrics include the following: 
+Another statistical study that can quantify how the MechaCar performs agaisnt its competition is a linear regression on city and highway fuel efficiency. Gas prices are becoming increasingly expensive nowadays, and probably one of the high priority concens for consumers when purchasing a car. The metrics may include the following: 
 
 * City and highway fuel efficiency (dependent variable)
 * Horse power (independent variable)
