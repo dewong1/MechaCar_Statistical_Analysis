@@ -64,4 +64,6 @@ Another statistical study that can quantify how the MechaCar performs agaisnt it
 * AWD capabilities (independent variable)
 * Vehicle weight (independent variable)
 
+Null Hypothesis: *If driving the MechaCar is not related to good city and highway fuel efficiency, then driving the MechaCar for 1 year will nresult in no decrease in gas purchases*. 
 
+Alternative Hypothesis: *If driving the MechaCar is related to good city and highway fuel efficiency, then driving the MechaCar for 1 year will result in decreased gas purchases*. 
